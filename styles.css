@@ -73,3 +73,6 @@ button:active {
 footer {
   font-family: Arial, Helvetica, sans-serif;
 }
+a {
+  text-decoration: none;
+}
