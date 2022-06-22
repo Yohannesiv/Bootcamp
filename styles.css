@@ -1,20 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
 header {
-  width: 300px;
+  width: 100%;
   height: 200px;
   background-color: green;
   color: white;
 }
 .about-me {
-  width: 300px;
-  height: 50px;
+  width: 100%;
+  height: 200px;
   background-color: rgb(113, 74, 145);
-  border: solid black 10px;
+  /*border: solid black 10px;
   border-radius: 50px;
+ margin: 10% 0 10px 0;*/
 }
 section {
-  width: 300px;
+  width: 100%;
   height: 100px;
-  background-color: #ff0000;
+  background-image: linear-gradient(red, yellow);
+  /* background-color: #ff0000;*/
+  display: flex;
 }
 /* .cercle{
   width: 50px;
@@ -23,3 +30,18 @@ section {
   background-color: rgb(80, 78, 75);
   border: solid wheat;
 } */
+.avatar {
+  width: 100px;
+  border-radius: 50px;
+}
+#name {
+  color: blue;
+}
+.test {
+  width: 50px;
+  height: 50px;
+  background-color: forestgreen;
+}
+#main {
+  box-shadow: 10px 10px 5px grey;
+}
